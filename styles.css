@@ -4,7 +4,7 @@ header {
       rgba(44, 44, 44, 0.6),
       rgba(44, 44, 44, 0.6)
     ),
-    url("images/header.jpg");
+    url("images/fond.jpg");
   background-size: cover;
   height: 550px;
 	display: flex;
