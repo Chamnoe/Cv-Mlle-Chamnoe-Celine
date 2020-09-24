@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Site de Mlle Chamnoe Celine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    /* MEDIA QUERIES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    @media screen and (max-width: 900px) {
+      h1 {
+        padding: 10px;
+      }
+    
+      .about {
+        width: 100%;
+        padding: 0;
+        margin: 70px auto;
+      }
+    
+      .about p {
+        padding: 0 15px;
+      }
+    
+      .skills-content {
+        width: 100%;
+        padding: 15px 0;
+      }
+    
+      .timeline .bubble {
+        width: 250px;
+      }
+    
+      .timeline ul li:nth-child(even) .bubble {
+        left: -289px;
+        /*250+45-6*/
+      }
+    
+      .contact {
+        margin: 30px;
+        width: unset;
+      }
+    }
+  </head>
+  <body><header>
+    <h1>Mlle Chamnoé Céline</h1>
+  </header>
+  <section class="presentation">
+    <img src="images/cv.jpg" alt="Photo de Céline" />
+    <h2>Présentation</h2>
+    <p>
+      Bonjour, je suis Céline, je vie dans à Chelles, (77)Seine et Marne.
+    Après mes études en Carrière Sanitaire et Sociale, j'ai exercée 
+    en tant qu'agent en EHPAD, le plus a été le côté relationnel, mais je ne me sentais pas épanouie.
+    Je me suis donc tournée vers une de mes passions, j'ai donc intégrée une école me formant au métier 
+    de serveuse option sommelière, une superbe expérience enrichissante.
+    Aujourd'hui je souhaiterai allier mes deux passions, la 2ème étant l'informatique.
+    Ce pourquoi, je suis en reconversion professionnelle dans le Digital et espère bien y faire ma place ....
+    </p>
+  </section>
+  <section class="competences">
+    <h2>Compétences en code</h2>
+    <div class="conteneur">
+      <div class="colonne">
+          <div class="conteneur-progres">
+              <span class="badge">HTML</span>
+              <div class="progres">
+                <div class="barre" style="width: 10%;"></div>
+                <span class="valeur">10%</span>
+              </div>
+            </div>
+            <!-- Fin .conteneur-progres -->
+      </div>
+      <!-- Fin .colonne -->
+      <div class="colonne">
+          <div class="conteneur-progres">
+              <span class="badge">CSS</span>
+              <div class="progres">
+                <div class="barre" style="width: 10%;"></div>
+                <span class="valeur">10%</span>
+              </div>
+            </div>
+            <!-- Fin .conteneur-progres -->
+      </div>
+      <!-- Fin .colonne -->
+    </div>
+    <!-- Fin .conteneur -->
+  </section>
+  <section class="competences">
+      <h2>Compétences en salle</h2>
+      <div class="conteneur">
+          <div class="colonne">
+              <div class="conteneur-progres">
+                  <span class="badge">MEP de la salle, dressage, accueil client,</span>
+                  <div class="progres">
+                    <div class="barre" style="width: 90%;"></div>
+                    <span class="valeur">90%</span>
+                  </div>
+                </div>
+                <!-- Fin .conteneur-progres -->
+          </div>
+          <!-- Fin .colonne -->
+          <div class="colonne">
+              <div class="conteneur-progres">
+                  <span class="badge">Prise de commande,service, encaissement</span>
+                  <div class="progres">
+                    <div class="barre" style="width: 90%;"></div>
+                    <span class="valeur">90%</span>
+                  </div>
+                </div>
+                <!-- Fin .conteneur-progres -->
+          </div>
+          <!-- Fin .colonne -->
+        </div>
+        <!-- Fin .conteneur -->
+
+  </section>
+  <section class="competences">
+      <h2>Compétences linguistique</h2>
+      <div class="conteneur">
+          <div class="colonne">
+              <div class="conteneur-progres">
+                  <span class="badge">Français</span>
+                  <div class="progres">
+                    <div class="barre" style="width: 100%;"></div>
+                    <span class="valeur">100%</span>
+                  </div>
+                </div>
+                <!-- Fin .conteneur-progres -->
+          </div>
+          <!-- Fin .colonne -->
+          <div class="colonne">
+              <div class="conteneur-progres">
+                  <span class="badge">Anglais</span>
+                  <div class="progres">
+                    <div class="barre" style="width: 20%;"></div>
+                    <span class="valeur">20%</span>
+                  </div>
+                </div>
+                <!-- Fin .conteneur-progres -->
+          </div>
+          <!-- Fin .colonne -->
+        </div>
+        <!-- Fin .conteneur -->
+    </section>
+    <section class="timeline">
+        <h2>Quelques Unes De Mes Expériences</h2>
+        <ul>
+            <!-- Début expérience 1 -->
+            <li>
+              <div class="bulle">
+                <time>2018-2020</time>
+                <span>Hôtesse d'accueil</span>
+                <br />BNP PARISBAS SECURITIES SERVICES GMP
+                Pantin, France
+                
+              </div>
+            </li>
+            <!-- Fin expérience 1 -->
+            <!-- Début expérience 2 -->
+            <li>
+              <div class="bulle">
+                <time>2017-2018</time>
+                <span>Serveuse en restaurant</span>
+                <br />RAIZES DO BRASIL
+                Courtry, France
+                
+                 </div>
+            </li>
+            <!-- Fin expérience 2 -->
+          <!-- Début expérience 3 -->
+            <li>
+    <div class="bulle">
+      <time>2017-5mois</time>
+      <span>Serveuse en restaurant</span>
+      <br />LE TREILLARD
+      Paris, France
+      
+      
+    </div>
+  </li>
+  <!-- Fin expérience 3 -->
+<!-- Début expérience 3 -->
+<li>
+    <div class="bulle">
+      <time>2016-2020 </time>
+      <span>J'ai egalement travaillé en tant qu'extra serveuse (auto-entreuneur ou non)</span>
+      <br />Brasserie, bistrot, restaurant, pizzeria...etc.
+    </div>
+  </li>
+  <!-- Fin expérience 3 -->
+      </section>
+      <section class="contact">
+          <h2>Contact</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41976.4653753846!2d2.560323118917528!3d48.886253148168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61053316fd94d%3A0x40b82c3688c5f60!2s77500%20Chelles!5e0!3m2!1sfr!2sfr!4v1600939485213!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <form name="contact" method="POST" data-netlify="true">
+              <div class="row">
+                <div class="form-group">
+                  <label>Nom</label>
+                  <input type="text" name="name" placeholder="votre nom" required />
+                </div>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="votre email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea
+                  name="message"
+                  placeholder="Votre message..."
+                  required
+                ></textarea>
+              </div>
+              <button class="btn">Envoyer</button>
+            </form>
+        </section>
+</body>
+ 
+</html>
